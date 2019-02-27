@@ -5,3 +5,7 @@
 #	path = content
 #	url = https://github.com/mitchejj/.xyz
 #	branch = content
+[submodule "content/archive"]
+	path = content/archive
+	url = https://github.com/mitchejj/soggy-oatmeal
+	branch = blog-archive

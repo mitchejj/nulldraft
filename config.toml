@@ -15,18 +15,19 @@ enableRobotsTXT = true
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
+
 [permalinks]
-  mix = "/:year/:month/:day/:slug/"
+  archive = "/:year/:month/:day/:slug/"
   
 [params]
   mainSections = ["blog", "log", "archive"]
   favicon = ""
   description = "running, °o°, tech, life"
   facebook = ""
-  twitter = "https://twitter.com/mitchejj"
+#  twitter = "https://twitter.com/mitchejj"
   instagram = ""
   youtube = ""
-  github = "http://github.com/mitchejj"
+#  github = "http://github.com/mitchejj"
   gitlab = ""
   linkedin = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
