@@ -2,6 +2,6 @@
 title: The Weblog(s)
 ---
 
-[New Post](/weblog/)
+New Post -- [Weblog](/weblog/)
  
-[Old Post](/backlog/)
+Old Post -- [Backlog](/backlog/)
