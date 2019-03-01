@@ -1,4 +1,13 @@
-# Redirects
+[Settings]
+ID = "the-nullog"
 
-/blog		/nullog/blog		200
-/backlog	/nullog/backlog		200
+# Redirects
+[[redirects]]
+  from = "/blog"
+  to = "/nullog/blog"
+  status = 200
+
+[[redirects]]
+  from = "/backlog"
+  to = "/nullog/backlog"
+  status =  200
