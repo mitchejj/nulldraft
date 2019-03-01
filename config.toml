@@ -19,8 +19,8 @@ enableRobotsTXT = true
     weight = -100
 
   [[menu.main]]
-    identifier = "log"
-    name = "Blog"
+    identifier = "blog"
+    name = "Archive"
     url = "/nullog/"
     weight = -110
 

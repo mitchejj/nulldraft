@@ -3,7 +3,7 @@ ID = "the-nullog"
 
 # Redirects
 [[redirects]]
-  from = "/blog"
+  from = "/weblog"
   to = "/nullog/blog"
   status = 200
 
