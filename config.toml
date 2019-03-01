@@ -1,5 +1,5 @@
 title = "Nullog.net"
-baseURL = "http://the.nullog.net"
+baseURL = "https://the.nullog.net"
 languageCode = "en-us"
 theme = "ananke"
 #themesDir = "../.."
@@ -32,6 +32,7 @@ enableRobotsTXT = true
 [permalinks]
   backlog = "/:year/:month/:day/:slug/"
   nullog = "/:year/:month:/:day:/:slug/"
+  about = "/about/:slug"
   
 [params]
   mainSections = ["blog", "log", "archive", "post", "nullog"]

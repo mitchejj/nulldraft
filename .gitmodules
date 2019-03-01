@@ -1,11 +1,11 @@
 [submodule "content/about"]
-	path = content/about
+	path = content/about/about
 	url = https://github.com/mitchejj/soggy-oatmeal
 	branch = about
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke
 [submodule "content/nullog/backlog"]
-	path = content/nullog/backlog
+	path = content/nullog/backlog/backlog
 	url = https://github.com/mitchejj/soggy-oatmeal
 	branch = blog-archive
