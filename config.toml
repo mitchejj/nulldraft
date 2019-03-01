@@ -1,15 +1,28 @@
-title = "StaticDraft.xyz"
-baseURL = "https://staticdraft.xyz"
+title = "Nullog.net"
+baseURL = "http://the.nullog.net"
 languageCode = "en-us"
 theme = "ananke"
 #themesDir = "../.."
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
+#SectionPagesMenu = "main"
 Paginate = 9 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = -100
+
+  [[menu.main]]
+    identifier = "log"
+    name = "Blog"
+    url = "/log/"
+    weight = -110
 
 [sitemap]
   changefreq = "monthly"
@@ -18,9 +31,10 @@ enableRobotsTXT = true
 
 [permalinks]
   archive = "/:year/:month/:day/:slug/"
+  log = "/:year/:month:/:day:/:slug/"
   
 [params]
-  mainSections = ["blog", "log", "archive"]
+  mainSections = ["blog", "log", "archive", "post", "nullog"]
   favicon = ""
   description = "running, °o°, tech, life"
   facebook = ""
