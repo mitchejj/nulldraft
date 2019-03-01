@@ -21,7 +21,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "log"
     name = "Blog"
-    url = "/log/"
+    url = "/nullog/"
     weight = -110
 
 [sitemap]
@@ -30,8 +30,8 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [permalinks]
-  archive = "/:year/:month/:day/:slug/"
-  log = "/:year/:month:/:day:/:slug/"
+  backlog = "/:year/:month/:day/:slug/"
+  nullog = "/:year/:month:/:day:/:slug/"
   
 [params]
   mainSections = ["blog", "log", "archive", "post", "nullog"]
