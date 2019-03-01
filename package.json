@@ -8,7 +8,7 @@
   "license": "CC-BY-4.0",
   "scripts":
   {
-    "git-subm-up" : "git submodule update --recursive"
+    "git-up" : "git submodule update --init --recursive  --rebase --remote",
     "git-update": "git submodule update --recursive --rebase --remote",
     "dev": "hugo server --bind 0.0.0.0 -b http://10.0.0.1 -w -D",
     "build": "hugo --gc --minify",

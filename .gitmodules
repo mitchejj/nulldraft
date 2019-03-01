@@ -9,3 +9,7 @@
 	path = content/nullog/backlog/backlog
 	url = https://github.com/mitchejj/soggy-oatmeal
 	branch = blog-archive
+[submodule "content/blog/blog"]
+	path = content/nullog/blog/blog
+	url = https://github.com/mitchejj/soggy-oatmeal
+	branch = blog-post
