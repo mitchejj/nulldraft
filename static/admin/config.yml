@@ -1,7 +1,7 @@
 backend:
     name: github
-#    repo: mitchejj/soggy-oatmeal
-#    branch: blog-post # Branch to update (optional; defaults to master)
+    repo: mitchejj/soggy-oatmeal
+    branch: blog-post # Branch to update (optional; defaults to master)
 
 media_folder: "site/static/img"
 public_foler: "img"
